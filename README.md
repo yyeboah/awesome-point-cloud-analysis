@@ -2,7 +2,9 @@
 
 for anyone who wants to do research about 3D point cloud.   
 
-If you find the awesome paper/code/dataset or have some suggestions, please contact linhua2017@ia.ac.cn. Thanks for your valuable contribution to the research community :smiley:   
+If you find the awesome paper/code/dataset or have some suggestions, please contact hualin.vvv@gmail.com. Thanks for your valuable contribution to the research community :smiley:   
+
+### For more recent papers, please visit [awesome-point-cloud-analysis-2020](https://github.com/NUAAXQ/awesome-point-cloud-analysis-2020)
 
 <h1> 
 
@@ -434,11 +436,16 @@ Statistics: :fire: code is available & stars >= 100 &emsp;|&emsp; :star: citatio
 - [[CVPR](https://arxiv.org/abs/2005.01014)] Feature-metric Registration: A Fast Semi-supervised Approach for Robust Point Cloud Registration without Correspondences. [[code](https://github.com/XiaoshuiHuang/fmr)] [__`reg.`__]
 - [[CVPR](https://arxiv.org/pdf/1907.02545.pdf)] Attentive Context Normalization for Robust Permutation-Equivariant Learning. [[code](https://github.com/vcg-uvic/acne)] [__`cls.`__]
 - [[CVPR](https://arxiv.org/pdf/2003.01456.pdf)] Implicit Functions in Feature Space for Shape Reconstruction and Completion. [[code](https://github.com/jchibane/if-net)] [__`oth.`__]
+- [[CVPR](https://arxiv.org/pdf/2002.10876.pdf)] PointAugment: an Auto-Augmentation Framework for Point Cloud Classification. [__`cls.`__]
 -
 - [[WACV](https://arxiv.org/pdf/1912.08487.pdf)] FuseSeg: LiDAR Point Cloud Segmentation Fusing Multi-Modal Data. [__`seg.`__ __`aut.`__]
 -
 - [[arXiv](https://arxiv.org/abs/2001.10692)] ImVoteNet: Boosting 3D Object Detection in Point Clouds with Image Votes. [__`det.`__]
-
+- 
+- [[ECCV](https://arxiv.org/pdf/1912.12098.pdf)] Quaternion Equivariant Capsule Networks for 3D Point Clouds. [__`cls.`__]
+- [[ECCV](https://arxiv.org/pdf/2007.10985.pdf)] PointContrast: Unsupervised Pre-training for 3D Point Cloud Understanding. [__`cls.`__ __`seg.`__ __`det.`__]
+- [[ECCV](https://arxiv.org/abs/2003.10826)] DeepFit: 3D Surface Fitting via Neural Network Weighted Least Squares. [[code](https://github.com/sitzikbs/DeepFit)] [__`oth.`__]
+- [[ECCV](https://arxiv.org/abs/2004.11784v2)] DPDist: Comparing Point Clouds Using Deep Point Cloud Distance. [[code](https://github.com/dahliau/DPDist)] [__`oth.`__]
 <h1> 
 
 ```diff
@@ -488,3 +495,4 @@ Statistics: :fire: code is available & stars >= 100 &emsp;|&emsp; :star: citatio
 - [[Oxford Robotcar](https://robotcar-dataset.robots.ox.ac.uk/)] The dataset captures many different combinations of weather, traffic and pedestrians. [__`cls.`__ __`det.`__ __`rec.`__]
 - [[PandaSet](https://scale.com/open-datasets/pandaset)] Public large-scale dataset for autonomous driving provided by Hesai & Scale. It enables researchers to study challenging urban driving situations using the full sensor suit of a real self-driving-car. [__`det.`__ __`seg.`__]
 - [[3D-FRONT](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-scene-dataset) [3D-FUTURE](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-future)] [Alibaba] 3D-FRONT contains 10,000 houses (or apartments) and ~70,000 rooms with layout information. 3D-FUTURE contains 20,000+ clean and realistic synthetic scenes in 5,000+ diverse rooms which contain 10,000+ unique high quality 3D instances of furniture.
+- [[Campus3D](https://3d.dataset.site)] The Campus3D contains a photogrametry point cloud which has 931.7 million points, covering 1.58 km2 of 6 connected campus regions of NUS. The dataset are point-wisely annotated with a hierarchical structure of 24 semantic labels and contains 2,530 instances based on the labels. [[MM 2020 paper](https://arxiv.org/pdf/2008.04968.pdf)][[code](https://github.com/shinke-li/Campus3D)][ __`det.`__ __`cls.`__ __`seg.`__]
